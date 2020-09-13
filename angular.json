@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fandom-india-app"
+    }
+  },
+  "defaultProject": "fandom-india-app",
+  "cli": {
+    "analytics": "50e74e89-a21a-4488-a850-68c14f864d43"
+  }
 }

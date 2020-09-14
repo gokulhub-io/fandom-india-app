@@ -6,7 +6,6 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MoviesComponent } from './movies/movies.component';
 import { SeriesComponent } from './series/series.component';
-import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard.component';
 
 
@@ -20,7 +19,6 @@ import { DashboardComponent } from './dashboard.component';
   ],
   imports: [
     CommonModule,
-    RouterModule,
     DashboardRoutingModule
   ],
 })

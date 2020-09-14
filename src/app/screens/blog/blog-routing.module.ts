@@ -8,21 +8,16 @@ import { QuestionsAnswersComponent } from './questions-answers/questions-answers
 
 const routes: Routes = [
   {
-    path:'',
+    path:'blog',
     component:BlogComponent,
     children:[
       {
-        path: '',
-        redirectTo: 'homepage',
-        pathMatch: 'full'
-      },
-      {
         path:'articles',
-        component:ArticlesComponent
+        component: ArticlesComponent,
       },
       {
         path:'questions-answers',
-        component:QuestionsAnswersComponent
+        component: QuestionsAnswersComponent,
       }
     ]
   }

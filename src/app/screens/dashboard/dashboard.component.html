@@ -1,2 +1,8 @@
-<p>dashboard works</p>
-<router-outlet></router-outlet>
+<div class="whole-page">
+    <div class="dashboard">
+        <div class="menu-bar" >
+            <div class="menu-item" *ngFor="let i of menuItems" (click)="redirectLink(i.menuURL)">{{i.menuName}}</div>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
